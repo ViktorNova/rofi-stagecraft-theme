@@ -1,6 +1,6 @@
 /**
- * User: deadguy
- * Copyright: deadguy
+ * User: ViktorNova
+ * Copyright: ViktorNova
  */
 
 configuration {
@@ -13,7 +13,7 @@ configuration {
 
 * {
 	font: "Xolonium Bold 16";
-	background-color:            #000000;
+	background-color:            rgba (0, 0, 0, 80% );
 	text-color:                  #00aaff;
 	selbg:                       #ff0099;
 	actbg:                       #00aaff;
@@ -24,6 +24,7 @@ configuration {
 	normal-foreground:           @text-color;
 	selected-normal-background:  @actbg;
 	normal-background:           @background-color;
+	alternate-normal-foreground: #000966;
 
 	selected-urgent-foreground:  @background-color;
 	urgent-foreground:           @text-color;
@@ -47,7 +48,7 @@ window {
 	location:	 east;
 	anchor:		 east;
 	height:		 100%;
-	width:		 22%;
+	width:		 40%;
 	orientation: horizontal;
 	children:	 [mainbox];
 }
